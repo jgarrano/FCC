@@ -1,0 +1,37 @@
+/* https://codepen.io/freeCodeCamp/full/VPaoNP */
+
+.main-container {
+	display: grid;
+}
+.header {
+	background-color: green;
+	font-family: "Courier New", monospace;
+	display: block;
+	text-align: center;
+}
+#description {
+		font-size: 2.2vw;
+		color: white;
+		text-shadow: 2px 5px grey;
+}
+
+.survey-form {
+	background-color: grey;
+	width: 500px;
+}
+
+#name {
+	width: 100px;
+	background-color: blue;
+}
+
+#email {
+	width: 300px;
+}
+
+
+
+
+#title {
+	color: white;
+}

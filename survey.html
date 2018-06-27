@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" name="freeCodeCamp Survey" content="HTML, CSS Grid, freeCodeCamp">
+	<link rel="stylesheet" href="FCC-style.css">
+</head>
+<body>
+	<div class="main-container">
+		<div class="header">
+			<img src="https://s3.amazonaws.com/freecodecamp/freecodecamp_logo.svg" alt="freeCodeCamp Logo"> 
+			<h1 id="title">Survey Form</h1>
+			<br>
+			<p id="description">Let us know how we can improve freeCodeCamp</p>
+		</div>
+		<div class="survey-form">
+			
+			<form id=survey-form><p>Name: <input id="name" type="text" name="survey-name" placeholder="Enter your name" required></p></form>
+			<form id=survey-form><p>Email: <input id="email" type="email" name="survey-email" placeholder="Example: yourname@domain.com" required></P></form>
+			<form id=survey-form><p>Age: <input id="number" type="number" name="survey-age" required></P></form>
+			
+		</div>
+		<div>
+			<form id=""><p>Which option best describes your current role?</p>
+			<select id="dropdown">
+				<option value="">Option1 </option>
+				<option value="">Student</option>
+				<option value="">Full Time Job</option>
+				<option value="">Full Time Learner </option>
+				<option value="">Option1 </option>
+			</select>
+		</div>
+		<div id="radio-input">
+			<form >
+				<input type="radio" name="gender" value="male" checked> Male<br>
+				<input type="radio" name="gender" value="female"> Female<br>
+				<input type="radio" name="gender" value="other"> Other<br>
+			</form> 
+		</div>
+		<div>
+			<p>Any Comments or Suggestions?</p>
+			<form>
+				<textarea name="message" rows="5" cols="40"></textarea><br>
+				<input type="submit" value="YEAH!">
+				<br>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
