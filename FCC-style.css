@@ -18,6 +18,8 @@
 .survey-form {
 	background-color: grey;
 	width: 500px;
+	display: grid;
+	grid-template-row: 1fr 1fr;
 }
 
 #name {
